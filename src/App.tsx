@@ -17,10 +17,10 @@ const App: React.FC = () => (
     <Navbar />
     <main className="main">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/subjects" element={<Subjects />} />
-        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/university" element={<Home />} />
+        <Route path="/university/about" element={<AboutUs />} />
+        <Route path="/university/subjects" element={<Subjects />} />
+        <Route path="/university/contacts" element={<Contacts />} />
       </Routes>
     </main>
     <BackToTop />
