@@ -1,0 +1,8 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  max-width: 1300px;
+  gap: 50px;
+  margin-top: 50px;
+  align-self: center;
+}

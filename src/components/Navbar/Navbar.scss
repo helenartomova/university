@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #a1bcff;
+    color: black;
+
+    &__link {
+        color: rgb(29, 116, 248);
+    }
+}
