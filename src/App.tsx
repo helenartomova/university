@@ -12,15 +12,15 @@ import { Contacts } from "./pages/Contacts";
 import { BackToTop } from "./components/BackToTop";
 
 const App: React.FC = () => (
-  <Router>
+  <Router basename="/university">
     <Header />
     <Navbar />
     <main className="main">
       <Routes>
-        <Route path="/university" element={<Home />} />
-        <Route path="/university/about" element={<AboutUs />} />
-        <Route path="/university/subjects" element={<Subjects />} />
-        <Route path="/university/contacts" element={<Contacts />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/subjects" element={<Subjects />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </main>
     <BackToTop />
